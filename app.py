@@ -33,7 +33,7 @@ def load_class_indices(json_path: str):
 
 
 # Paths (assume model & JSON are in same directory as this .py file)
-MODEL_PATH = os.path.join(os.getcwd(), "soybean_model.h5")
+MODEL_PATH = os.path.join(os.getcwd(), "best_model.h5")
 CLASS_INDICES_PATH = os.path.join(os.getcwd(), "class_indices.json")
 
 model = load_trained_model(MODEL_PATH)
